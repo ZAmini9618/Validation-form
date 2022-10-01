@@ -1,0 +1,126 @@
+@media(max-width:440px){
+    .formContainer{
+        padding: 20px;
+        margin: 50px 20px;
+    }
+    .formContainer{
+        width: 90%;
+    }
+    .formImput{
+        width: 90%;
+    }
+    .uncompled{
+        width: 90%;
+    }
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.formContainer {
+    border: 1px solid silver;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 40px;
+    color: #1a73e8;
+    font-size: 1.8rem;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 75px;
+}
+
+.formField label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: .9rem;
+    color: rgb(85, 85, 85);
+}
+
+.formField span {
+    text-align: left;
+    width: fit-content;
+    height: 10px;
+    margin-top: 5px;
+    font-size: .7rem;
+    color: red;
+    padding: 2px 3px;
+    line-height: 10px;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, .175);
+}
+
+.formImput {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 5px;
+    border: 1px solid silver;
+    transform: all .2s ease-in;
+}
+
+.uncompled {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 5px;
+    border: 1px solid red;
+    transform: all .2s ease-in;
+}
+
+.formImput:focus,
+.uncompled:focus {
+    outline: none;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #1a73e8;
+}
+.formButton{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.formButton button {
+    background-color: #1a73e8;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: .875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transform: all .1s ease-in;
+}
+
+.formButton button:hover {
+    background-color: #004aaa;
+}
+
+.formButton a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 700;
+    transform: all .1s ease-in;
+}
+
+.formButton a:hover {
+    color: #004aaa;
+}
